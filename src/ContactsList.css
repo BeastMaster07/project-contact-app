@@ -1,0 +1,35 @@
+.ContactsListMain .theList li {
+  color: #333;
+  background-color: rgba(255,255,255,.5);
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+ 
+  transition: background-color .2s ease-out;
+}
+ 
+.ContactsListMain .theList li:hover {
+  background-color: pink;
+  cursor: pointer;
+}
+
+.ContactsListMain .top-bar {
+  height: 50px;
+  background-color: black;
+}
+
+.ContactsListMain .top-bar p{
+  height: 50px;
+  line-height: 35px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 5px;
+  font-size: 23px;
+  color: white;
+  background-color: black;
+  text-align: -webkit-center;
+}
+
+.ContactsListMain .backBtn {
+  border: 1px solid black;
+}
